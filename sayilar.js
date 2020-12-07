@@ -37,12 +37,3 @@ min = sayilar[i];
 
 console.log("Dizi icindeki en buyuk sayi .........." +mak);
 console.log("Dizi icindeki en kucuk sayi .........." +min);
-
-tek = sayilar[0];
-for(let t = 0; t < sayilar.length; t++){
-if(sayilar[t] % 2 == 1)
-{
-tek = sayilar[t];
-console.log("Dizinin icindeki tek sayılar......." +tek);
-}
-}
